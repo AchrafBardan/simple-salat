@@ -1,0 +1,41 @@
+.ns-dark Page {
+    background-color: #252525;
+}
+
+TextField {
+    color: white;
+}
+
+button {
+    color: white;
+}
+
+
+.times-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.time-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20;
+}
+
+.time-name {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.time {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+}

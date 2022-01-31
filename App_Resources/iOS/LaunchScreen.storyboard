@@ -21,8 +21,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen.AspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtH-rr-YfP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wtH-rr-YfP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" red="0.15" green="0.15" blue="0.15" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen.Center" translatesAutoresizingMaskIntoConstraints="NO" id="s1z-aa-wYv">
                                 <rect key="frame" x="0.0" y="150" width="375" height="512"/>
@@ -47,7 +48,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreen.AspectFill" width="768" height="1024"/>
         <image name="LaunchScreen.Center" width="384" height="512"/>
     </resources>
 </document>

@@ -5,6 +5,11 @@ purpose of the file is to pass control to the app’s first module.
 */
 
 import { Application } from '@nativescript/core'
+import { HttpClient } from 'nativescript-http'
+
+global.http = new HttpClient({
+  baseUrl: 'https://api.aladhan.com/v1'
+});
 
 Application.run({ moduleName: 'app-root' })
 
